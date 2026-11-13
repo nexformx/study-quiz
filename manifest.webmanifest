@@ -1,0 +1,60 @@
+{
+  "name": "Study Quiz - LPIC-1 101",
+  "short_name": "StudyQuiz",
+  "description": "LPIC-1 101をオフラインで学習できる適応型PWA",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "lang": "ja",
+  "dir": "ltr",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#f6f8fc",
+  "theme_color": "#2563eb",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "学習を始める",
+      "short_name": "学習",
+      "url": "./?screen=learn"
+    },
+    {
+      "name": "記録・分析を見る",
+      "short_name": "記録",
+      "url": "./?screen=records"
+    },
+    {
+      "name": "完全バックアップ",
+      "short_name": "バックアップ",
+      "url": "./?screen=backupCenter"
+    }
+  ]
+}
